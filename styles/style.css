@@ -2,26 +2,27 @@ body {
     height: 100vh;
     width: 100vw;
     display: grid;
-    grid-template-rows: auto 1fr auto;
     grid-template-columns: 1fr;
+    grid-template-rows: min-content 1fr min-content;
 }
 
 header {
-    max-height: fit-content;
+    padding: 1rem;
 }
 
 footer {
-    max-height: fit-content;
+    padding: 1rem;
 }
 
 main {
     container-type: size;
     display: flex;
     flex-direction: column;
-    /* Make resizable, for demo purposes */
-    /* resize: horizontal; */
-    /* overflow: hidden; */
     height: 100%;
+
+    h2 {
+        align-self: center;
+    }
 }
 
 @container (min-width: 0) {
@@ -40,16 +41,26 @@ main {
     grid-template-rows: 1fr 1fr 1fr;
     gap: 1rem;
     padding: 1rem;
-    /* justify-items: center; */
-    /* align-items: center; */
+    min-width: fit-content;
+    min-height: fit-content;
 
     .cell {
         outline: black 1px solid;
-        font-size: 3rem;
-        font-weight: bold;
+        /* font-size: 3rem; */
+        /* font-weight: bold; */
         display: flex;
-        align-items: center;
+        /* align-items: center; */
         justify-content: center;
     }
 }
 
+
+img {
+    /* width: 100%; */
+}
+
+dialog {
+    background-color: rgb(33 37 41 / 87%);
+    width: 75%;
+    height: 75%;
+}
