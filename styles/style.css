@@ -43,7 +43,7 @@ main {
     padding: 1rem;
     min-width: fit-content;
     min-height: fit-content;
-
+    border-radius: 1rem;
     .cell {
         outline: black 1px solid;
         /* font-size: 3rem; */
@@ -51,6 +51,7 @@ main {
         display: flex;
         /* align-items: center; */
         justify-content: center;
+        border-radius: 1rem;
     }
 }
 
@@ -62,5 +63,24 @@ img {
 dialog {
     background-color: rgb(33 37 41 / 87%);
     width: 75%;
-    height: 75%;
+    height: fit-content;
+    border-radius: 1rem;
+    align-self: center;
+    min-width: fit-content;
+    
+    h1 {
+        justify-self: center;
+    }
+    h2 {
+        justify-self: center;
+        width: 70%;
+    }
+}
+
+
+#btn-div {
+    display: flex;
+    justify-content: flex-end;
+    padding: 1rem;
+    gap: 1rem;
 }
