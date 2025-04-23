@@ -1,5 +1,3 @@
-console.log("asxasx");
-
 (function () {
     // Start with X's turn.
     let isXturn = true;

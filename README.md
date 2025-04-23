@@ -1,12 +1,5 @@
 # odin-Tic-Tac-Toe
+Completed project from https://www.theodinproject.com/lessons/node-path-javascript-tic-tac-toe
 
-
-https://stackoverflow.com/questions/50224939/css-can-i-use-an-objects-width-in-calc
-
-https://stackoverflow.com/questions/76221969/container-queries-based-on-height-not-working
-
-https://codepen.io/Manu-Suhonen/pen/LEYvjRr
-
-https://fonts.google.com/icons
-
-https://stackoverflow.com/a/58668351/22831914
+# live page:
+https://manusuhonen.github.io/odin-Tic-Tac-Toe/
